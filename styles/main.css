@@ -7,7 +7,7 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family: Philosopher, Verdana, "Lucida Grande", Arial, sans-serif; /*   Philospher, Verdana, "Lucida Grande",   */
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -48,7 +48,7 @@ aside {
 
 h1, h2 {
     margin: 0;
-    font-family: serif;  /*   add fonts here   */
+    font-family: Cinzel, Georgia, Palatino, "Times New Roman",	serif;  /*   add fonts here   */
 }
 
 article h1 {
@@ -111,3 +111,11 @@ aside a:focus, aside a:hover {
 }
 
 /* media queries */
+
+@media(max-width: 652px) {
+	#container { margin-top: 0; margin-bottom: 0; }
+	#top-image-container, img { display: none; }
+	aside { float: none; width: 100%; margin: 0; }
+	article { width: 100%; }
+	#sidebar2 { margin-top: 0; }
+}
